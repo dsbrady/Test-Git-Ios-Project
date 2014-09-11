@@ -21,6 +21,7 @@
 		88A7DF9019C123F50038AF37 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88A7DF7219C123F40038AF37 /* UIKit.framework */; };
 		88A7DF9819C123F50038AF37 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 88A7DF9619C123F50038AF37 /* InfoPlist.strings */; };
 		88A7DF9A19C123F50038AF37 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A7DF9919C123F50038AF37 /* Git_TestTests.m */; };
+		88A7DFA519C1278B0038AF37 /* SMTTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A7DFA419C1278B0038AF37 /* SMTTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		88A7DF9519C123F50038AF37 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		88A7DF9719C123F50038AF37 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		88A7DF9919C123F50038AF37 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		88A7DFA319C1278B0038AF37 /* SMTTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMTTest.h; sourceTree = "<group>"; };
+		88A7DFA419C1278B0038AF37 /* SMTTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMTTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				88A7DF8019C123F40038AF37 /* Main.storyboard */,
 				88A7DF8319C123F40038AF37 /* SMTViewController.h */,
 				88A7DF8419C123F40038AF37 /* SMTViewController.m */,
+				88A7DFA319C1278B0038AF37 /* SMTTest.h */,
+				88A7DFA419C1278B0038AF37 /* SMTTest.m */,
 				88A7DF8619C123F40038AF37 /* Images.xcassets */,
 				88A7DF7519C123F40038AF37 /* Supporting Files */,
 			);
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88A7DFA519C1278B0038AF37 /* SMTTest.m in Sources */,
 				88A7DF8519C123F40038AF37 /* SMTViewController.m in Sources */,
 				88A7DF7B19C123F40038AF37 /* main.m in Sources */,
 				88A7DF7F19C123F40038AF37 /* SMTAppDelegate.m in Sources */,
